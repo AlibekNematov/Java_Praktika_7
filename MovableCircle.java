@@ -13,6 +13,7 @@ public class MovableCircle extends MovablePoint {
     @Override
     public String toString(){return "x = " + x + ", " + "y = " + y + ", " + "xSpeed = " + xSpeed + ", " + "ySpeed = " + ySpeed + " radius = " + radius + ", center: " + center;}
 
+    public void hi();
     @Override
     public void moveUp(){
         super.moveUp();
