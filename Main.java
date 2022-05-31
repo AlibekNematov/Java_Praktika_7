@@ -13,7 +13,7 @@ public class Main {
         movablePoint.moveRight();
         System.out.println(movablePoint.toString());
         System.out.println(prototype1.toString());
-
+	System.out.println("Hello")
 
         System.out.println("Movable circle: ");
         MovableCircle movableCircle = new MovableCircle(0,0,3,1,4, movablePoint);
